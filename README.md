@@ -81,6 +81,15 @@ cargo update -p package_name --precise 0.1.1
 ```
 </details>
 
+## Install Dependencies
+**On Linux** Parley uses the [FontLogic](https://github.com/yeslogic/fontconfig-rs) crate to discover your system fonts. So on Linux you'll need to install the `libfontconfig-dev` package for our examples to run.
+
+Ubuntu Example:
+```sh
+sudo apt update
+sudo apt install libfontconfig-dev pkg-config
+```
+
 ## Community
 
 Discussion of Parley development happens in the [Linebender Zulip](https://xi.zulipchat.com/), specifically the [#parley channel](https://xi.zulipchat.com/#narrow/channel/205635-parley).
